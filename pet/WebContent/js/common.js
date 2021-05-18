@@ -1,0 +1,69 @@
+$(document).ready(function(){
+    $("#trigger").on("click",function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        $(this).toggleClass("active");
+        $("#mainMenu").toggleClass("active");
+        $("#topMenu").toggleClass("active");
+    });
+    $("#mainMenu>li").mouseenter(function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        $(this).find(".subMenu").stop().slideDown();
+    });
+    $("#mainMenu>li").mouseleave(function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        $(this).find(".subMenu").stop().slideUp();
+    });
+    $("#as_btn_wrap_icon").click(function(e){
+       e.preventDefault();
+       e.stopPropagation();
+       $(".as_btn_wrap").toggleClass("active");
+    });
+    $(window).scroll(function(e){
+        var scrollX=$(this).scrollTop();
+        if (scrollX>120){
+            $("header").css({
+                "background":"rgba(25,50,50,1)"	
+            });
+            $('.subMenu>li>a').css({
+                "background":"rgba(25,50,50,1)"	
+            });
+            $('.subMenu>li>a').mouseenter(function(){
+                $(this).css({
+                    "background":"rgba(90,25,45,1)"	
+                })
+            });
+            $('.subMenu>li>a').mouseleave(function(){
+                $(this).css({
+                    "background":"rgba(25,50,50,1)"	
+                })
+            });
+        }else {
+            $("header").css({
+                "background":"rgba(25,50,50,0.7)"	
+            });
+            $('.subMenu>li>a').css({
+                "background":"rgba(25,50,50,0.7)"	
+            });
+            $('.subMenu>li>a').mouseenter(function(){
+                $(this).css({
+                    "background":"rgba(90,25,45,0.7)"	
+                })
+            });
+            $('.subMenu>li>a').mouseleave(function(){
+                $(this).css({
+                    "background":"rgba(25,50,50,0.7)"	
+                })
+            });
+        }
+    });
+    $('#login-btn').click(function(){
+        $('#modal').addClass('active');
+    });
+    $('#login-close-btn').click(function(){
+        $('#modal').removeClass('active');
+    });
+});
+           

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+h4 {
+	display:block; width:fit-content; margin: 10px auto;
+	font-size:20px;	
+}
+form{ position:relative; width: 40%;  margin: 0 auto; text-align:center;}
+input {
+	height:30px; margin-top:5px; 
+	outline:0; border-radius: 15px;
+}
+input[type|="button"]{width:120px; background:none; cursor:pointer; transition: all 0.3s ease-in}
+input[type|="button"]:hover{ background:#ff6a9f; color:#fff;}
+
+a{position:absolute; right:20px; top:20px;}
+
+p{
+	position:absolute; left:50%; top:50%;
+	width:300px;
+	transform:translate(-50%);
+}

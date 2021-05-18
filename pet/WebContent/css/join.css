@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+.join_bn{ position:relative; width:100%; height:500px; }
+.join_bn_bg{
+    position:absolute; left:0; top:0;
+    width:100%; height:100%; 
+    background:url(../imgs/join_bn_bg.jpg)no-repeat center center; 
+    background-size:cover; background-attachment: fixed;
+}
+.join_bn_bg_opa{
+    position:absolute; left:0; top:0;
+    width:100%; height:100%;
+    background:rgba(0,0,0,0.6);
+}
+.join_bn_bity{
+    position:absolute; right:150px; bottom:50px;
+    text-align:center;
+}
+.join_bn_bity>h2{ 
+    font-family: 'Playball', cursive; 
+    font-size:90px; color:#f0f0f0;
+}
+.join_bn_bity>p{
+    font-size:18px; padding-top:30px;
+    color:#f0f0f0;
+}
+.container {width:500px; margin:0 auto; padding-top:120px; }
+.container>h2 {font-size:48px; text-align:center;}
+.container>p {
+    font-size:24px; font-weight:bold; 
+    font-family: 'Typo_Ballerina'; text-align:center; 
+}
+.container ul li {margin:20px 0;}
+.container ul li h3 {
+    width:100%; height:50px; 
+    color:#FFF; font-size:18px;
+    text-align:center; line-height:50px;
+    background:#00c3b3; 
+}
+input {
+    height:50px;
+    font-size:15px;
+    border:1px solid #b3b3b3; border-radius:5px;
+}
+input[type=text],input[type=password],input[type=email] {
+    width:100%; padding-left:10px;
+}
+input[type=tel] {width:243px; padding-left:10px;}
+input[type=date] {width:200px; padding-left:10px;}
+input[type=button] {padding:0 10px;}
+input[type=button], button {cursor: pointer;}
+input[class=id] {width:380px;}
+input[class=zip] {width:360px;}
+input[class=confirm] {float:right;}
+input[type=button]:hover {background:#ff6a9f; color:#FFF;}
+input[type=radio], input[type=checkbox] {
+    position: relative; top: 2px;
+    width:18px; height: 18px; margin-right:5px;
+}
+select {
+    width:100%; height:50px;
+    padding-left:5px; 
+    font-size:15px; 
+    border-radius: 5px;
+}
+.default li p {display: inline-block; margin-right:20px;}
+.opt li {margin:20px 0; font-size:18px;}
+.opt li p {font-size:20px; font-weight:bold; margin-bottom: 10px; }
+.btn-group button, .btn-group a {
+    float:left; width:30%; height:50px; 
+    margin-right:5%; margin-bottom:50px;
+    border-radius:5px; font-size:15px;
+    padding:0 10px; line-height:50px;
+    text-align:center; border:0; outline: 0;
+    border:1px solid #b3b3b3;
+}
+.btn-group button:hover,.btn-group a:hover {
+    background:#ff6a9f; color:#fff;
+}
+.btn-group a {margin:0;}
+
+@media screen and (max-width:599px){ 
+    .join_bn{ position:relative; width:100%; height:400px; }
+    
+    .join_bn_bity{
+        position:absolute; right:40px; bottom:50px;
+        text-align:center;
+    }
+}

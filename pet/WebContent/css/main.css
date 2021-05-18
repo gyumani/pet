@@ -1,0 +1,293 @@
+@charset "utf-8";
+@media screen and (min-width:1440px){
+    .hd, .tablet, .mobile {display:none;}
+    /* ==========main bg========== */
+    #m_bg {
+        position:fixed; left:50%; top:50%;
+        transform:translateX(-50%) translateY(-50%);
+        width:auto; height:auto;
+        min-width: 100%; min-height: 100%; 
+        z-index:-100;
+    }
+    .m_it_wrap{
+        position:fixed; left:0; top:0;
+        width:100vw; height:100vw;
+        overflow: hidden;
+    }
+    .m_it1{
+        position:absolute;
+        width:100%; height:100%;
+        background:rgba(0,0,0,0.2);
+        transition:all 0.4s ease-in;
+        z-index:-99;
+    }
+    .m_it2{
+        position:absolute;
+        width:100%; height:100%;
+        background:rgba(0,0,0,0.2);
+        transition:all 0.4s ease-in;
+        z-index:-99;
+    }
+    .m_it3{
+        position:absolute;
+        width:100%; height:100%;
+        background:rgba(0,0,0,0.2);
+        transition:all 0.4s ease-in;
+        z-index:-99;
+    }
+    /* ==========main-content */
+    .m_ct{ width: 100%; height:80%; }
+    /* ==========bigTypo======== */
+    .m_biTy {
+        position:absolute; left:50px; top:100px; 
+    }
+    .m_biTy p{
+        font-family:'katuri'; font-size:210px; color:#fff; line-height: 160px; text-transform: uppercase;
+        opacity:0; transition:all 0.4s ease-in 0.4s;
+    }
+    /* ==========view about btn========== */
+    .m_ct>a{
+        position:absolute; left:-300px;  bottom:50px;
+        font-family: 'Noto Sans KR', sans-serif; font-size:16px; color:#f0f0f0;
+        border-bottom:1px solid #f0f0f0; 
+        transition:all 0.4s ease-in 0.8s;
+    }
+    /* ----------html:hover--------- */
+    html:hover .m_it1{ transform:scale(1.5) translateX(-50%) translateY(25%) rotate(45deg); }
+    html:hover .m_it2{ transform:scale(1.5) translateX(20%) translateY(45%) rotate(-30deg); }
+    html:hover .m_it3{ transform:scale(1.5) translateX(-30%) translateY(10%) rotate(-120deg); }
+    html:hover .m_biTy p{ opacity:1; }
+    html:hover .m_ct>a { left:50px; }
+}
+@media screen and (min-width:1020px) and (max-width:1439px){
+    .fhd, .tablet, .mobile {display:none;}
+    /* ===========main bg============ */
+    
+    #m_bg {
+        position:fixed; left:50%; top:50%;
+        transform:translateX(-50%) translateY(-50%);
+        width:auto; height:auto;
+        min-width: 100%; min-height: 100%; 
+        z-index:-100;
+    }
+    .m_it_wrap{
+        position:fixed; left:0; top:0;
+        width:100vw; height:100vw;
+        overflow: hidden;
+    }
+    .m_it1{
+        position:absolute;
+        width:100%; height:100%;
+        background:rgba(0,0,0,0.2);
+        transition:all 0.4s ease-in;
+        z-index:-99;
+    }
+    .m_it2{
+        position:absolute;
+        width:100%; height:100%;
+        background:rgba(0,0,0,0.2);
+        transition:all 0.4s ease-in;
+        z-index:-99;
+    }
+    .m_it3{
+        position:absolute;
+        width:100%; height:100%;
+        background:rgba(0,0,0,0.2);
+        transition:all 0.4s ease-in;
+        z-index:-99;
+    }
+    /* ==========main-content */
+    .m_ct{ width: 100%; height:80%; }
+    /* ==========bigTypo======== */
+    .m_biTy {
+        position:absolute; left:30px; top:100px; 
+    }
+    .m_biTy p{
+        font-family:'katuri'; font-size:190px; color:#fff; line-height: 150px; text-transform: uppercase;
+        opacity:0; transition:all 0.4s ease-in 0.4s;
+    }
+    /* ==========view about btn========== */
+    .m_ct>a{
+        position:absolute; left:-300px;  bottom:50px;
+        font-family: 'Noto Sans KR', sans-serif; font-size:16px; color:#f0f0f0;
+        border-bottom:1px solid #f0f0f0; 
+        transition:all 0.4s ease-in 0.8s;
+    }
+    /* ----------html:hover--------- */
+    html:hover .m_it1{ transform:scale(1.5) translateX(-50%) translateY(25%) rotate(45deg); }
+    html:hover .m_it2{ transform:scale(1.5) translateX(20%) translateY(45%) rotate(-30deg); }
+    html:hover .m_it3{ transform:scale(1.5) translateX(-30%) translateY(10%) rotate(-120deg); }
+    html:hover .m_biTy p{ opacity:1; }
+    html:hover .m_ct>a { left:30px; }
+    
+}
+@media screen and (min-width:780px) and (max-width:1019px){   /* =================main=================== */
+    .fhd, .hd, .mobile{display:none;}
+    /* ==========main bg========== */
+    #m_bg {
+        position:fixed; left:50%; top:50%;
+        transform:translateX(-50%) translateY(-50%);
+        width:auto; height:auto;
+        min-width: 100%; min-height: 100%; 
+        z-index:-100;
+    }
+    .m_it_wrap{
+        position:fixed; left:0; top:0;
+        width:100%; height:100%;
+        overflow: hidden;
+    }
+    .m_it1{
+        position:absolute;
+        width:100%; height:100%;
+        background:rgba(0,0,0,0.2);
+        transition:all 0.4s ease-in;
+        z-index:-99;
+    }
+    .m_it2{
+        position:absolute;
+        width:100%; height:100%;
+        background:rgba(0,0,0,0.2);
+        transition:all 0.4s ease-in;
+        z-index:-99;
+    }
+    .m_it3{
+        position:absolute;
+        width:100%; height:100%;
+        background:rgba(0,0,0,0.2);
+        transition:all 0.4s ease-in;
+        z-index:-99;
+    }
+    /* ==========main-content */
+    .m_ct{ width: 100%; height:80%; }
+    /* ==========bigTypo======== */
+    .m_biTy {
+        position:absolute; left:30px; top:100px; 
+    }
+    .m_biTy p{
+        font-family:'katuri'; font-size:170px; color:#fff; line-height: 140px; text-transform: uppercase;
+        opacity:0; transition:all 0.4s ease-in 0.4s;
+    }
+    /* ==========view about btn========== */
+    .m_ct>a{
+        position:absolute; left:-300px;  bottom:50px;
+        font-family: 'Noto Sans KR', sans-serif; font-size:16px; color:#f0f0f0;
+        border-bottom:1px solid #f0f0f0; 
+        transition:all 0.4s ease-in 0.8s;
+    }
+    /* ----------html:hover--------- */
+    html:hover .m_biTy p{ opacity:1; }
+    html:hover .m_ct>a { left:30px; }
+ }
+ @media screen and (min-width:600px) and (max-width:779px){
+    .fhd, .hd, .tablet{display:none;}
+    /* ==========main bg========== */
+    #m_bg {
+        position:fixed; left:50%; top:50%;
+        transform:translateX(-50%) translateY(-50%);
+        width:auto; height:auto;
+        min-width: 100%; min-height: 100%; 
+        z-index:-100;
+    }
+    .m_it_wrap{
+        width:100vw; height:100vw;
+        overflow: hidden;
+    }
+    .m_it1{
+        position:absolute;
+        width:100%; height:100%;
+        background:rgba(0,0,0,0.2);
+        transition:all 0.4s ease-in;
+        z-index:-99;
+    }
+    .m_it2{
+        position:absolute;
+        width:100%; height:100%;
+        background:rgba(0,0,0,0.2);
+        transition:all 0.4s ease-in;
+        z-index:-99;
+    }
+    .m_it3{
+        position:absolute;
+        width:100%; height:100%;
+        background:rgba(0,0,0,0.2);
+        transition:all 0.4s ease-in;
+        z-index:-99;
+    }
+    /* ==========main-content */
+    .m_ct{ width: 100%; height:80%; }
+    /* ==========bigTypo======== */
+    .m_biTy {
+        position:absolute; left:20px; top:100px; 
+    }
+    .m_biTy p{
+        font-family:'katuri'; font-size:170px; color:#fff; line-height: 140px; text-transform: uppercase;
+        opacity:0; transition:all 0.4s ease-in 0.4s;
+    }
+    /* ==========view about btn========== */
+    .m_ct>a{
+        position:absolute; left:-300px;  bottom:50px;
+        font-family: 'Noto Sans KR', sans-serif; font-size:16px; color:#f0f0f0;
+        border-bottom:1px solid #f0f0f0; 
+        transition:all 0.4s ease-in 0.8s;
+    }
+    /* ----------html:hover--------- */
+    html:hover .m_biTy p{ opacity:1; }
+    html:hover .m_ct>a { left:20px; }
+ }
+ @media screen and (max-width:599px){
+    .fhd, .hd, .tablet{display:none;}
+    /* ==========main bg========== */
+    #m_bg {
+        position:fixed; left:50%; top:50%;
+        transform:translateX(-50%) translateY(-50%);
+        width:auto; height:auto;
+        min-width: 100%; min-height: 100%; 
+        z-index:-100;
+    }
+    .m_it_wrap{
+        position:fixed; left:0; top:0;
+        width:100%; height:100%;
+        overflow: hidden;
+    }
+    .m_it1{
+        position:absolute;
+        width:100%; height:100%;
+        background:rgba(0,0,0,0.2);
+        transition:all 0.4s ease-in;
+        z-index:-99;
+    }
+    .m_it2{
+        position:absolute;
+        width:100%; height:100%;
+        background:rgba(0,0,0,0.2);
+        transition:all 0.4s ease-in;
+        z-index:-99;
+    }
+    .m_it3{
+        position:absolute;
+        width:100%; height:100%;
+        background:rgba(0,0,0,0.2);
+        transition:all 0.4s ease-in;
+        z-index:-99;
+    }
+    /* ==========main-content */
+    .m_ct{ width: 100%; height:80%; }
+    /* ==========bigTypo======== */
+    .m_biTy {
+        position:absolute; left:10px; top:100px; 
+    }
+    .m_biTy p{
+        font-family:'katuri'; font-size:150px; color:#fff; line-height: 120px; text-transform: uppercase;
+        opacity:0; transition:all 0.4s ease-in 0.4s;
+    }
+    /* ==========view about btn========== */
+    .m_ct>a{
+        position:absolute; left:-300px;  bottom:50px;
+        font-family: 'Noto Sans KR', sans-serif; font-size:16px; color:#f0f0f0;
+        border-bottom:1px solid #f0f0f0; 
+        transition:all 0.4s ease-in 0.8s;
+    }
+    /* ----------html:hover--------- */
+    html:hover .m_biTy p{ opacity:1; }
+    html:hover .m_ct>a { left:10px; }
+}

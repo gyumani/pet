@@ -1,0 +1,29 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'katuri';
+    src: url('../fonts/Katuri.eot'),
+        local(" "), url('../fonts/Katuri.woff');
+}
+@font-face {
+    font-family: 'Typo_Ballerina';
+    src: url('../fonts/Typo_BallerinaL.eot'),
+        local(""), url('../fonts/Typo_BallerinaL.woff');
+}
+@font-face{
+    font-family: 'osungB';
+    src:url('../fonts/OSeongandHanEum-Bold.eot'),
+        local(" "), url('../fonts/OSeongandHanEum-Bold.woff');
+}
+/*
+ monoton=font-family: 'Monoton', cursive;
+ notosans=font-family: 'Noto Sans KR', sans-serif;
+ playball=font-family: 'Playball', cursive;
+ */
+*{ margin:0; padding:0; box-sizing:border-box; }
+h1,h2 {font-family: 'katuri';}
+h3,h4,h5,h6 {font-family:'Typo_Ballerina';} 
+body{ font-family: 'osungB'; font-size:16px; color:#222; background:#fff;}
+ul li { list-style: none; }
+a {display:block; text-decoration: none; color:#333; border:0; outline:0;}
+.clear {clear:both;}
+span {color:#48f7e5;}
