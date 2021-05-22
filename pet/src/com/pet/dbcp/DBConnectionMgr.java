@@ -15,9 +15,9 @@ import java.util.Vector;
 public class DBConnectionMgr {
     private Vector connections = new Vector(10);
     private String _driver = "com.mariadb.jdbc.Driver",
-    _url = "jdbc:mariadb://umj7-023.cafe24.com/atck1227?useUnicode=true&characterEncoding=EUC_KR",
-    _user = "atck1227",
-    _password = "CF!gyumin127@db";
+    _url = "jdbc:mariadb://111/111?useUnicode=true&characterEncoding=EUC_KR",
+    _user = "111",
+    _password = "111b";
     private boolean _traceOn = false;
     private boolean initialized = false;
     private int _openConnections = 10;
