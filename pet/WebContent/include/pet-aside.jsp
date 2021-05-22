@@ -8,7 +8,7 @@
             <li><a href="#"><i class="fas fa-arrow-up"></i></a></li>
             <li><a href="http://facebook.com"><i class="fab fa-facebook"></i></a></li>
             <li><a href="http://youtube.com"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="http://instagram.com"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://github.com/gyumani/pet/"><i class="fab fa-github"></i></a></li>
         </ul>
         <a href="#" id="as_btn_wrap_icon"><i class="fas fa-plus-circle"></i></a>
     </aside>
