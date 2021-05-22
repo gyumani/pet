@@ -87,7 +87,7 @@
                 <p><span>e</span>asy</p>
                 <p><span>t</span>our</p>
             </div>
-            <a href="sub01.html" >view about</a>
+            <a href="pet/sub01.jsp" >view about</a>
         </div>
         </div>
         <div class="m_ct hd">
