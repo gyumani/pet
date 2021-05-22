@@ -14,8 +14,8 @@ import java.util.Vector;
 
 public class DBConnectionMgr {
     private Vector connections = new Vector(10);
-    private String _driver = "com.mysql.jdbc.Driver",
-    _url = "jdbc:mysql://umj7-023.cafe24.com/atck1227?useUnicode=true&characterEncoding=EUC_KR",
+    private String _driver = "com.mariadb.jdbc.Driver",
+    _url = "jdbc:mariadb://umj7-023.cafe24.com/atck1227?useUnicode=true&characterEncoding=EUC_KR",
     _user = "atck1227",
     _password = "CF!gyumin127@db";
     private boolean _traceOn = false;
